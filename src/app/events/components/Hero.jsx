@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-30 hidden lg:block"></div>
 
       {/* text */}
-      <div className="absolute bottom-1/2 left-1/2 transform -translate-x-1/2 font-sunn text-white text-[45px] lg:text-[75px]">
+      <div className="absolute top-1/2 w-full text-center font-sunn text-white text-[45px] lg:text-[75px]">
         <h1>{`Offering Spectacular Events`}</h1>
       </div>
 
