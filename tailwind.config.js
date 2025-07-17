@@ -8,8 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        bgButton: "var(--bg-button)",
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        bgFooter: "var(--bg-footer)",
+      },
+      fontFamily: {
+        minionPro: ["MinionPro", "sans-serif"],
+        sunn: ["Sunn", "sans-serif"],
       },
     },
   },
