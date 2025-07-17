@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 
-const Events = () => {
+const Wedding = () => {
   const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
 
@@ -32,25 +32,25 @@ const Events = () => {
   }, []);
   return (
     <div
-      id="events"
-      className="w-full h-full lg:h-[70vh] flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
+      id="wedding"
+      className="w-full h-full lg:h-screen flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
     >
       <div className="relative w-full">
         <Image
-          id="about-image"
+          id="wedding-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1736934807/casalalla-v2/s1vrdwmbtl5wjuglo5fl.jpg"
           height={1000}
           width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
+          alt="Boho house"
           priority
           className={`object-cover w-full h-full  md:block hidden`}
         />
         <Image
-          id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761727/dar_ouzguita/boho_house_29_lam1yu.jpg"
+          id="wedding-image"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1736934807/casalalla-v2/s1vrdwmbtl5wjuglo5fl.jpg"
           height={1000}
           width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
+          alt="Boho house"
           priority
           className={`object-cover w-full h-full  md:hidden block`}
         />
@@ -58,25 +58,19 @@ const Events = () => {
       </div>
       <div className=" w-full">
         <div className="w-full h-full flex flex-col justify-center items-start gap-1 lg:p-20 p-4 text-primary">
-          {/*<h1 className="text-[20px] lg:text-[20px] leading-[28px] tracking-[2px] font-minionPro font-light mb-5 text-bgButton text-justify">
-            {t("about.title")}
-          </h1>*/}
+          <h1 className="text-[20px] lg:text-[20px] leading-[28px] tracking-[2px] font-minionPro font-light mb-5 text-bgButton text-justify">
+            {`SPECTACULAR WEDDINGS`}
+          </h1>
           <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
-            {`At every step of your event preparations, a passionate and highly experienced team is at your disposal, dedicated to making your every wish come true.`}
+            {`Set against the natural backdrop we have orchestrated some of the most spectacular and memorable luxury weddings in marrakech if not the entire Mediterranean. Our specialist wedding services are all you need to transform your dream day into a truly special occasion you will treasure forever. Regardless of the size of your event, from the moment you contact us, we work tirelessly to bring your ideas to life, taking care of everything from preparation to last-minute details, allowing you to relax and focus on what truly matters.`}
           </p>
           <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
-            {`Each event is designed from the ground up to fit your requirements and preferences, whether it’s one of our renowned destination weddings for couples from around the world, a sophisticated company retreat, a delightful bat mitzvah, or a sleek business conference. This also includes specialized halal and kosher catering, romantic fresh flower arrangements, brilliant DJs, elegant decorations, and comprehensive technical equipment to cover all needs.`}
+            {`Opt to stay in a private villa and host your ceremony and celebrations here — even your bachelor party or a day-after spa ritual to recover in style! As with any great event, food is vitally important, and our executive chefs relish the challenge of tailoring a gastronomic experience to your tastes. Whether you choose to work with your own wedding planners and require our assistance or prefer a total event solution, we cover every detail — from food, travel, and drinks to arrangements, music, fireworks, decoration, and even honeymoon planning and execution.`}
           </p>
-          <Link
-            href="/events"
-            className=" text-left mt-4 py-2 px-8 uppercase tracking-widest border-b border-bgButton text-bgButton text-[12px] leading-[34px] hover:bg-bgButton hover:text-white duration-200 transition-all ease-out"
-          >
-            {`View More`}
-          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default Events;
+export default Wedding;
