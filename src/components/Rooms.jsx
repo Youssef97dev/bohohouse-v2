@@ -62,7 +62,7 @@ const Rooms = () => {
             {t("about.title")}
           </h1>*/}
           <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
-            {`Each of The Boho house's seven dwellings was placed with thoughtful intention: maximizing sweeping vistas, capturing optimal shade and shelter, and ensuring absolute seclusion. Here, mornings often begin not with an alarm, but with the resonant crow of a nearby farm rooster – a natural reveille inviting you to sync with the unhurried pulse of the land and the rhythmic sigh of the sea. It’s a place where privacy cradles you, and the day's first sound connects you instantly to the earth's steady heartbeat.`}
+            {`Each of The Boho house's seven dwellings was placed with thoughtful intention: maximizing sweeping vistas, capturing optimal shade and shelter, and ensuring absolute seclusion. It’s a place where privacy cradles you, and the day's first sound connects you instantly to the earth's steady heartbeat.`}
           </p>
           <Link
             href="/book-room"
