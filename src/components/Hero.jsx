@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 -z-10 block lg:hidden">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761725/dar_ouzguita/boho_house_28_iedhxy.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761705/dar_ouzguita/boho_house_19_aoexge.jpg"
           alt="jet ski lalla takerkoust, casa lalla takerkoust menu, quad lalla takerkoust, lalla takerkoust agafay"
           height={2000}
           width={2000}
