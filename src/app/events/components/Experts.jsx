@@ -47,7 +47,7 @@ const Experts = () => {
         />
         <Image
           id="expert-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1740737161/casalalla-v2/nczsxh4f2gndgy2h6uqt.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761727/dar_ouzguita/boho_house_29_lam1yu.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
