@@ -47,7 +47,7 @@ const SectionEv = () => {
         />
         <Image
           id="wedding-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761705/dar_ouzguita/boho_house_19_aoexge.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761725/dar_ouzguita/boho_house_28_iedhxy.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
