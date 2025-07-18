@@ -113,6 +113,9 @@ const Navbar = () => {
                   {"Gallery"}
                 </Link>
               </li>
+              <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton">
+                <Link href="/faqs">{"FAQs"}</Link>
+              </li>
               <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton flex justify-start items-center gap-5">
                 <div
                   className="cursor-pointer"
