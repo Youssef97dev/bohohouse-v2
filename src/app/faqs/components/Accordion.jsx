@@ -63,9 +63,6 @@ const Accordion = () => {
       title: "Table access & Security Policy",
       text: [
         {
-          description: `For everyone's enjoyment and safety, only one security personnel will be permitted per table - no exeptions.`,
-        },
-        {
           description: `The table wristbands on the deck are final and must correspond to pre-agreed arrangements.`,
         },
         {
