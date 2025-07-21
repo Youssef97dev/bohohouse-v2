@@ -17,30 +17,7 @@ const Accordion = () => {
           description: `As you embark on your journey to Boho Marrakech, please bear in mind that this one-of-a-kind experience is set withing the stunning natural beauty of Lake Lalla Takerkoust, near Marrakech.`,
         },
         {
-          description: `to best preserve this historical site, there will be no direct car access to the venue. All guests must walk a short distance along a well-lit path.`,
-        },
-      ],
-      class: "border-t  border-secondary_2",
-    },
-    {
-      id: "2",
-      title: "Rideshare",
-      text: [
-        {
-          description: `Due to there being no onsite parking, rideshare is strongly encouraged. Drop-off and pickup zones will be located outside the festival grounds.`,
-        },
-        {
-          description: `For personal drop-off or pickup, please note that the location is the same as the rideshare adress. Be mindful of your surroundings when entering and exiting the vehicle.`,
-        },
-      ],
-      class: "border-t  border-secondary_2",
-    },
-    {
-      id: "3",
-      title: "Getting to the box office",
-      text: [
-        {
-          description: `You will need to walk a short distance up a well-lit path from the rideshare drop-off point to reach the box office.`,
+          description: `For private trasnportation please contact us directly.`,
         },
       ],
       class: "border-t  border-secondary_2",
