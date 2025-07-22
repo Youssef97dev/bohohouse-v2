@@ -9,6 +9,7 @@ import Events from "./Events";
 import Rooms from "./Rooms";
 import Footer from "./Footer";
 import SmallGallery from "./SmallGallery";
+import Where from "./Where";
 //import Events from "./Events";
 //import Activities from "./Activities";
 //import Kitchen from "./Kitchen";
@@ -34,6 +35,7 @@ const Loader = () => {
           <Rooms />
           <Events />
           <SmallGallery />
+          <Where />
           <Footer />
           {/*<Events />
           <Activities />
