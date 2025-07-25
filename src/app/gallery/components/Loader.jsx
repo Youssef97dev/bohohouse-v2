@@ -1,10 +1,14 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Gallery from "./Gallery";
 import Footer from "@/components/Footer";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <>
