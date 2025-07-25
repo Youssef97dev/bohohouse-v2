@@ -38,7 +38,7 @@ const Experts = () => {
       <div className="relative w-full">
         <Image
           id="expert-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752769033/dar_ouzguita/boho_house_10_lik271.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1753457348/dar_ouzguita/yuo_jjfawh.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
@@ -47,7 +47,7 @@ const Experts = () => {
         />
         <Image
           id="expert-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761727/dar_ouzguita/boho_house_29_lam1yu.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1753457348/dar_ouzguita/yuo_jjfawh.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
