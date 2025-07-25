@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
@@ -9,6 +9,10 @@ import Experts from "./Experts";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <>
