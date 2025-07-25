@@ -33,7 +33,7 @@ const SectionEv = () => {
   return (
     <div
       id="sectionev"
-      className="w-full h-full lg:h-screen flex md:flex-row-reverse flex-col py-2 px-5 lg:px-28 gap-3"
+      className="w-full h-full lg:full flex md:flex-row-reverse flex-col py-2 px-5 lg:px-28 gap-3"
     >
       <div className="relative w-full">
         <Image
@@ -61,10 +61,10 @@ const SectionEv = () => {
           <h1 className="text-[20px] lg:text-[20px] leading-[28px] tracking-[2px] font-minionPro font-light mb-5 text-bgButton text-justify">
             {`STRAIGHT OUT OF YOUR DREAMS`}
           </h1>
-          <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
+          <p className="text-[16px] lg:text-[15px] lg:font-light  tracking-wider leading-[25px] lg:leading-[30px]  text-justify py-1 text-[#564138]">
             {`As For the reception, dare to dream big! we can offer  stunning scenery, guaranteed good weather, sublime sunsets, and an unmistakable energy, making it the perfect choice for your special day.`}
           </p>
-          <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
+          <p className="text-[16px] lg:text-[15px] lg:font-light  tracking-wider leading-[25px] lg:leading-[30px]  text-justify py-1 text-[#564138]">
             {`In addition to a vast range of event spaces, we also offer a selection of rooms and suites. This ensures your guests not only have a wonderful night but also the chance to sleep in luxury, wake up to a rejuvenating breakfast, and enjoy a plethora of amenities with the exemplary warm, professional service for which Marrakech is famous.`}
           </p>
         </div>
