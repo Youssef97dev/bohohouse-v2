@@ -38,7 +38,7 @@ const Events = () => {
       <div className="relative w-full">
         <Image
           id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1736934807/casalalla-v2/s1vrdwmbtl5wjuglo5fl.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
           height={1000}
           width={1000}
           alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
@@ -47,7 +47,7 @@ const Events = () => {
         />
         <Image
           id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761727/dar_ouzguita/boho_house_29_lam1yu.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
           height={1000}
           width={1000}
           alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"

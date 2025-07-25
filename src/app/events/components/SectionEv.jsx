@@ -38,7 +38,7 @@ const SectionEv = () => {
       <div className="relative w-full">
         <Image
           id="wedding-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1740674401/casalalla-v2/casa_9_wkt43z.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
@@ -47,7 +47,7 @@ const SectionEv = () => {
         />
         <Image
           id="wedding-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761725/dar_ouzguita/boho_house_28_iedhxy.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
           height={1000}
           width={1000}
           alt="Boho house"
