@@ -1,6 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
-import { CircleLoader } from "react-spinners";
+import { useState } from "react";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Accordion from "./Accordion";
@@ -9,15 +8,9 @@ import Hero from "./Hero";
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
 
-  useEffect(() => {
-    // Simulate loading time
-    const timer = setTimeout(() => setIsClient(true), 2500);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <>
-      {isClient ? (
+      {isClient && (
         <div className="">
           <Navbar />
           <Hero />
@@ -25,10 +18,6 @@ const Loader = () => {
             <Accordion />
           </div>
           <Footer />
-        </div>
-      ) : (
-        <div className="fixed inset-0 z-40 flex items-center justify-center">
-          <CircleLoader color="#ad9071" size={100} />
         </div>
       )}
     </>
