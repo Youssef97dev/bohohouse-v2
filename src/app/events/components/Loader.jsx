@@ -29,9 +29,7 @@ const Loader = () => {
           <Footer />
         </div>
       ) : (
-        <div className="fixed inset-0 z-40 flex items-center justify-center">
-          <CircleLoader color="#ad9071" size={100} />
-        </div>
+        <div className="fixed inset-0 z-40 flex items-center justify-center"></div>
       )}
     </>
   );
