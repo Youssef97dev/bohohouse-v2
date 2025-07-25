@@ -33,7 +33,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-full lg:h-[70vh] flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
+      className="w-full h-full lg:h-[80vh] flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
     >
       <div className="relative w-full">
         <Image
@@ -61,7 +61,7 @@ const About = () => {
           {/*<h1 className="text-[20px] lg:text-[20px] leading-[28px] tracking-[2px] font-minionPro font-light mb-5 text-bgButton text-justify">
             {t("about.title")}
           </h1>*/}
-          <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
+          <p className="text-[16px] lg:text-[15px] lg:font-light  tracking-wider leading-[25px] lg:leading-[30px]  text-justify py-1 text-[#564138]">
             {`Awakening to your own gratitude, discovering a sense of calling, finding deep peace – these moments often bloom in the stillness of unexpected places. Boho House, resting on the sun-kissed shores of Lake Lalla Takerkoust, is such a sanctuary. Here, far from the whirlwind of Marrakech, the lake's tranquil expanse and the raw beauty of the surrounding hills hold a special kind of magic. It’s a place designed not just for rest, but to cradle that fragile feeling of being profoundly lucky. Time slows, the soul breathes, and in the quiet communion with water, sky, and earth, you realize a deep-seated peace was waiting for you all along.`}
           </p>
         </div>

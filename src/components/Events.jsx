@@ -33,7 +33,7 @@ const Events = () => {
   return (
     <div
       id="events"
-      className="w-full h-full lg:h-[70vh] flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
+      className="w-full h-full lg:h-[80vh] flex md:flex-row flex-col py-2 px-5 lg:px-28 gap-3"
     >
       <div className="relative w-full">
         <Image
@@ -61,10 +61,10 @@ const Events = () => {
           {/*<h1 className="text-[20px] lg:text-[20px] leading-[28px] tracking-[2px] font-minionPro font-light mb-5 text-bgButton text-justify">
             {t("about.title")}
           </h1>*/}
-          <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
+          <p className="text-[16px] lg:text-[15px] lg:font-light  tracking-wider leading-[25px] lg:leading-[30px]  text-justify py-1 text-[#564138]">
             {`At every step of your event preparations, a passionate and highly experienced team is at your disposal, dedicated to making your every wish come true.`}
           </p>
-          <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
+          <p className="text-[16px] lg:text-[15px] lg:font-light  tracking-wider leading-[25px] lg:leading-[30px]  text-justify py-1 text-[#564138]">
             {`Each event is designed from the ground up to fit your requirements and preferences, whether it’s one of our renowned destination weddings for couples from around the world, a sophisticated company retreat, a delightful bat mitzvah, or a sleek business conference. This also includes specialized halal and kosher catering, romantic fresh flower arrangements, brilliant DJs, elegant decorations, and comprehensive technical equipment to cover all needs.`}
           </p>
           <Link

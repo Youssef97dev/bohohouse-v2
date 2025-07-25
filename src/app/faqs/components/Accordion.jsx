@@ -27,10 +27,7 @@ const Accordion = () => {
       title: "Dress Code",
       text: [
         {
-          description: `NO SHORTS | NO FLIP FLOPS`,
-        },
-        {
-          description: `We strongly recommend comfortable shoes due to the uneven terrain and the amount of walking involved.`,
+          description: `Smart Casual`,
         },
       ],
       class: "border-t  border-secondary_2",
