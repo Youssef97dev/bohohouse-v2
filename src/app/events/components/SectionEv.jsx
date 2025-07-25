@@ -62,10 +62,10 @@ const SectionEv = () => {
             {`STRAIGHT OUT OF YOUR DREAMS`}
           </h1>
           <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
-            {`Renowned for our hospitality and dedication to diverse cultures and traditions, our team can assist in officiating ceremonies for all denominations, parties, and events tailored to be as traditional or as modern as you desire. Whether you envision an intimate gathering or a lavish, grand-scale affair, our experienced MICE events team can bring it to life As For the reception, dare to dream big! we can offer  stunning scenery, guaranteed good weather, sublime sunsets, and an unmistakable energy, making it the perfect choice for your special day.`}
+            {`As For the reception, dare to dream big! we can offer  stunning scenery, guaranteed good weather, sublime sunsets, and an unmistakable energy, making it the perfect choice for your special day.`}
           </p>
           <p className="text-[16px] lg:text-[16px] lg:font-light  tracking-wider leading-[25px] lg:leading-[35px]  text-justify py-1 text-[#564138]">
-            {`In addition to a vast range of event spaces, we also offer a selection of rooms, suites, and sumptuous villas. This ensures your guests not only have a wonderful night but also the chance to sleep in luxury, wake up to a rejuvenating breakfast, and enjoy a plethora of amenities with the exemplary warm, professional service for which marrakech is famous.`}
+            {`In addition to a vast range of event spaces, we also offer a selection of rooms and suites. This ensures your guests not only have a wonderful night but also the chance to sleep in luxury, wake up to a rejuvenating breakfast, and enjoy a plethora of amenities with the exemplary warm, professional service for which Marrakech is famous.`}
           </p>
         </div>
       </div>
