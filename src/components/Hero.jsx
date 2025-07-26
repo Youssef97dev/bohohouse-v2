@@ -50,11 +50,11 @@ const Hero = () => {
       {/* Logo */}
       <div className="absolute bottom-1/2 left-1/2 transform -translate-x-1/2">
         <Image
-          src="/logo-4.png"
+          src="/bohohouse-2.png"
           width={1000}
           height={1000}
-          className="w-48"
-          alt="logo casalalla"
+          className="w-64"
+          alt="logo bohohouse"
         />
       </div>
 

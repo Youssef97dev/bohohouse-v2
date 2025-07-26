@@ -59,10 +59,10 @@ const Navbar = () => {
         {scrolled && (
           <div className="w-full flex justify-center items-center">
             <Image
-              src={"/logo-1.png"}
+              src={"/bohohouse-1.png"}
               width={300}
               height={300}
-              alt="Logo Casa lalla"
+              alt="Logo bohohouse"
               className={`w-20 lg:w-28 `}
             />
           </div>
