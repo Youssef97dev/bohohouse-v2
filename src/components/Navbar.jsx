@@ -74,7 +74,7 @@ const Navbar = () => {
               scrolled ? "w-full lg:w-[30%]" : "w-full lg:w-[20%]"
             }`}
           >
-            {"Book Now"}
+            {t("navbar.reservation")}
           </Link>
         </div>
         {/* Full-screen mobile menu */}
