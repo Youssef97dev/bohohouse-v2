@@ -99,18 +99,18 @@ const Navbar = () => {
               className="space-y-8 text-black leading-[25px] text-[16px] font-light"
             >
               <li className="pb-3 border-b  hover:text-bgButton hover:border-bgButton">
-                <Link href="/">{"Home"}</Link>
+                <Link href="/">{t("navbar.home")}</Link>
               </li>
               <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton">
                 <Link href="#about">{"Boho House"}</Link>
               </li>
 
               <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton">
-                <Link href="#events">{"Events"}</Link>
+                <Link href="#events">{t("navbar.events")}</Link>
               </li>
               <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton">
                 <Link target="_blank" href="/gallery">
-                  {"Gallery"}
+                  {t("navbar.gallery")}
                 </Link>
               </li>
               <li className="pb-3 border-b hover:text-bgButton hover:border-bgButton">
