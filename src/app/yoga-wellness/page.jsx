@@ -1,7 +1,8 @@
 import React from "react";
+import Loader from "./components/Loader";
 
 const page = () => {
-  return <div>Yoga & Wellness</div>;
+  return <Loader />;
 };
 
 export default page;
