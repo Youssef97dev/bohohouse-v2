@@ -51,7 +51,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-30 hidden lg:block"></div>
 
       {/* text */}
-      <div className="absolute top-1/2 w-full text-center font-sunn text-white text-[45px] lg:text-[75px]">
+      <div className="absolute top-1/2 w-full text-center font-playfair text-white text-[45px] lg:text-[75px]">
         <h1>{t("navbar.yoga")}</h1>
       </div>
 

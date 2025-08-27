@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         minionPro: ["MinionPro", "sans-serif"],
         sunn: ["Sunn", "sans-serif"],
+        playfair: ["PlayfairDisplay", "sans-serif"],
       },
     },
   },
