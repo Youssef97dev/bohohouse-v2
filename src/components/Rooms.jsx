@@ -39,8 +39,8 @@ const Rooms = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371170/dar_ouzguita/boho-2_vb8x6x.webp"
-          height={1000}
-          width={1000}
+          height={500}
+          width={500}
           alt=""
           priority
           className={`object-cover w-full h-full  md:block hidden`}

@@ -39,8 +39,8 @@ const About = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371041/dar_ouzguita/boho-1_blghza.webp"
-          height={1000}
-          width={1000}
+          height={500}
+          width={500}
           alt="Boho house"
           priority
           className={`object-cover w-full h-full  md:block hidden`}
