@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
 import Intro from "./Intro";
+import About from "./About";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
@@ -19,6 +20,7 @@ const Loader = () => {
           <Navbar />
           <Hero />
           <Intro />
+          <About />
           <Footer />
         </div>
       )}
