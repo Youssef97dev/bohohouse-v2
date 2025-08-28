@@ -22,12 +22,12 @@ const Hero = () => {
       {/* Parallax Image Container */}
       <div className="absolute inset-0 -z-10 hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756375138/dar_ouzguita/yoga-large-3_masnf2.webp"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756375130/dar_ouzguita/yoga-mobile-2_pxxato.webp"
           alt=""
           height={800}
           width={800}
           priority
-          className="object-cover object-top h-full w-full"
+          className="object-cover h-full w-full"
           style={{
             transform: `translateY(${offsetY * 0.8}px)`,
             willChange: "transform",
