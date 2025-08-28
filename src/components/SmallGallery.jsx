@@ -4,46 +4,46 @@ import { useState, useEffect } from "react";
 
 const images = [
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761720/dar_ouzguita/boho_house_27_jbjoek.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756371692/dar_ouzguita/boho-4_nayaqm.webp",
     text: "AS ABOVE SO BELOW",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761694/dar_ouzguita/boho_house_13_osuqms.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756371985/dar_ouzguita/boho-5_ht6tlt.webp",
     text: "HAVEN OF TRANQUILITY",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1744887329/dar_ouzguita/tvlvixptyfyphszl1j8n.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756371170/dar_ouzguita/boho-2_vb8x6x.webp",
     text: "WILDERNESS VALLEY",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1740674401/casalalla-v2/casa_9_wkt43z.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372100/dar_ouzguita/boho-6_vm87bs.webp",
     text: "Offering an authentic taste",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1740674397/casalalla-v2/casa_7_walijv.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372176/dar_ouzguita/boho-7_zewz4a.webp",
     text: "HAVEN OF TRANQUILITY",
   },
 ];
 
 const imagesMobile = [
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761719/dar_ouzguita/boho_house_25_ub1qei.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372492/dar_ouzguita/boho-1_akgyw0.webp",
     text: "AS ABOVE SO BELOW",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761706/dar_ouzguita/boho_house_21_uubt7h.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372493/dar_ouzguita/boho-2_pdhtun.webp",
     text: "HAVEN OF TRANQUILITY",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761701/dar_ouzguita/boho_house_17_wi96y2.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372493/dar_ouzguita/boho-3_h2a8vm.webp",
     text: "WILDERNESS VALLEY",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1752761686/dar_ouzguita/boho_house_5_w595cx.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372499/dar_ouzguita/boho-4_izlqiv.webp",
     text: "Offering an authentic taste",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1741688752/dar_ouzguita/in4qfsdtdeuoq306ufp1.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1756372495/dar_ouzguita/boho-5_ucsjyr.webp",
     text: "HAVEN OF TRANQUILITY",
   },
 ];

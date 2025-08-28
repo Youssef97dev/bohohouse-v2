@@ -38,10 +38,10 @@ const Events = () => {
       <div className="relative w-full">
         <Image
           id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371424/dar_ouzguita/boho-3_x06ycq.webp"
           height={1000}
           width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
+          alt=""
           priority
           className={`object-cover w-full h-full  md:block hidden`}
         />
@@ -50,7 +50,7 @@ const Events = () => {
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
           height={1000}
           width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
+          alt=""
           priority
           className={`object-cover w-full h-full  md:hidden block`}
         />

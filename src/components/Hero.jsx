@@ -19,8 +19,8 @@ const Hero = () => {
       {/* Parallax Image Container */}
       <div className="absolute inset-0 -z-10 hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1741167796/CasaLalla-VNor/e1y8fiqg1c2lvobn20ed.jpg"
-          alt="jet ski lalla takerkoust, casa lalla takerkoust menu, quad lalla takerkoust, lalla takerkoust agafay"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756370826/dar_ouzguita/heroboho_yfvmgh.webp"
+          alt=""
           height={2000}
           width={2000}
           className="object-cover h-full w-full"

@@ -38,7 +38,7 @@ const About = () => {
       <div className="relative w-full">
         <Image
           id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1740674397/casalalla-v2/casa_8_crsxvk.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371041/dar_ouzguita/boho-1_blghza.webp"
           height={1000}
           width={1000}
           alt="Boho house"

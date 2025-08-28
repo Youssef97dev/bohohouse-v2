@@ -38,10 +38,10 @@ const Rooms = () => {
       <div className="relative w-full">
         <Image
           id="about-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1744887329/dar_ouzguita/tvlvixptyfyphszl1j8n.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371170/dar_ouzguita/boho-2_vb8x6x.webp"
           height={1000}
           width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
+          alt=""
           priority
           className={`object-cover w-full h-full  md:block hidden`}
         />
