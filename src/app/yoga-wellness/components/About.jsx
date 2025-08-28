@@ -7,7 +7,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full h-full lg:h-[80vh] flex md:flex-row flex-col py-2 px-8 lg:px-[120px] xl:px-[200px] gap-3 ">
+    <div className="w-full h-full lg:h-[80vh] flex md:flex-row flex-col py-2 px-8 lg:px-[100px] xl:px-[200px] gap-3 ">
       <div className="relative w-full">
         <Image
           id="about-image"
