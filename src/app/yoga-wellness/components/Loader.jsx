@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
+import Intro from "./Intro";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
@@ -17,7 +18,7 @@ const Loader = () => {
         <div className="">
           <Navbar />
           <Hero />
-          <div className="h-5"></div>
+          <Intro />
           <Footer />
         </div>
       )}

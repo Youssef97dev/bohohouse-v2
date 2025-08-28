@@ -22,11 +22,12 @@ const Hero = () => {
       {/* Parallax Image Container */}
       <div className="absolute inset-0 -z-10 hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761720/dar_ouzguita/boho_house_27_jbjoek.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756375138/dar_ouzguita/yoga-large-3_masnf2.webp"
           alt=""
-          height={2000}
-          width={2000}
-          className="object-cover h-full w-full"
+          height={800}
+          width={800}
+          priority
+          className="object-cover object-top h-full w-full"
           style={{
             transform: `translateY(${offsetY * 0.8}px)`,
             willChange: "transform",
@@ -35,10 +36,11 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0 -z-10 block lg:hidden">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761705/dar_ouzguita/boho_house_19_aoexge.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1756375130/dar_ouzguita/yoga-mobile-2_pxxato.webp"
           alt=""
-          height={2000}
-          width={2000}
+          height={800}
+          width={800}
+          priority
           className="object-cover h-full w-full"
           style={{
             transform: `translateY(${offsetY * 0.8}px)`,
@@ -51,7 +53,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-30 hidden lg:block"></div>
 
       {/* text */}
-      <div className="absolute top-1/2 w-full text-center font-playfair text-white text-[45px] lg:text-[75px]">
+      <div className="absolute top-1/2 w-full text-center font-playfair text-white text-[45px] lg:text-[65px]">
         <h1>{t("navbar.yoga")}</h1>
       </div>
 

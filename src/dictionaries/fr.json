@@ -53,6 +53,13 @@
     "title": "Où nous sommes",
     "content_1": "À seulement 45 minutes de Marrakech, BOHO HOUSE s’éveille près du lac Lalla Takerkoust, bercé par des vues imprenables sur les eaux scintillantes. Lieu de grâce stratégique, il se niche au carrefour magique entre les dunes oniriques du désert d’Agafay et les sommets majestueux de l’Atlas — où l’horizon embrasse l’infini."
   },
+  "yoga": {
+    "desc_1": "Vivez une expérience de sérénité intérieure au Boho House Marrakech grâce aux cours quotidiens de yoga et de bien-être.",
+    "desc_2": "Un coach en nutrition est également à votre disposition, et des retraites personnalisées peuvent être organisées sur demande, pour une durée de 2 à 6 jours.",
+    "desc_3": "Quel que soit votre niveau, vous êtes invités à découvrir une large gamme de pratiques : yoga, pilates, renforcement corporel, exercices de respiration et méditations sonores. Chaque séance est encadrée par des instructeurs réputés, offrant une expérience complète corps–esprit, conçue pour restaurer l’équilibre et favoriser le bien-être global.",
+    "desc_4": "Les cours de yoga et de bien-être sont inclus dans le séjour de nos hôtes, et accessibles aussi bien aux membres réguliers qu’aux visiteurs souhaitant vivre une expérience à la journée.",
+    "button": "Voir l'horaire des cours"
+  },
   "contact": {
     "title": "Le Restaurant Casa lalla takerkoust",
     "open": "Ouvert Tous les jours de 13H00 à 22H00",
