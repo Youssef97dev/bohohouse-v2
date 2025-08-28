@@ -39,8 +39,8 @@ const About = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371041/dar_ouzguita/boho-1_blghza.webp"
-          height={500}
-          width={500}
+          height={100}
+          width={100}
           alt="Boho house"
           priority
           className={`object-cover w-full h-full  md:block hidden`}
@@ -48,8 +48,8 @@ const About = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761710/dar_ouzguita/boho_house_18_wrism4.jpg"
-          height={1000}
-          width={1000}
+          height={100}
+          width={100}
           alt="Boho house"
           priority
           className={`object-cover w-full h-full  md:hidden block`}

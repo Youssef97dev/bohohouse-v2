@@ -39,19 +39,17 @@ const Rooms = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371170/dar_ouzguita/boho-2_vb8x6x.webp"
-          height={500}
-          width={500}
+          height={100}
+          width={100}
           alt=""
-          priority
           className={`object-cover w-full h-full  md:block hidden`}
         />
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761705/dar_ouzguita/boho_house_20_dxux68.jpg"
-          height={1000}
-          width={1000}
-          alt="casa lalla takerkoust, agafay marrakech, agafay restaurant, lalla takerkoust restaurant"
-          priority
+          height={100}
+          width={100}
+          alt=""
           className={`object-cover w-full h-full  md:hidden block`}
         />
         {/* Filter */}

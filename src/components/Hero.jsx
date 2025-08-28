@@ -21,8 +21,8 @@ const Hero = () => {
         <Image
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756370826/dar_ouzguita/heroboho_yfvmgh.webp"
           alt=""
-          height={800}
-          width={800}
+          height={400}
+          width={400}
           className="object-cover h-full w-full"
           priority
           style={{

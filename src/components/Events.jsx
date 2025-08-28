@@ -39,19 +39,17 @@ const Events = () => {
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371424/dar_ouzguita/boho-3_x06ycq.webp"
-          height={500}
-          width={500}
+          height={100}
+          width={100}
           alt=""
-          priority
           className={`object-cover w-full h-full  md:block hidden`}
         />
         <Image
           id="about-image"
           src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761683/dar_ouzguita/boho_house_2_hjnmtd.jpg"
-          height={1000}
-          width={1000}
+          height={100}
+          width={100}
           alt=""
-          priority
           className={`object-cover w-full h-full  md:hidden block`}
         />
         {/* Filter */}

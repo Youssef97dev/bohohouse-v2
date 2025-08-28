@@ -93,9 +93,8 @@ const SmallGallery = () => {
             <Image
               src={image.src}
               alt={`boho house`}
-              height={800}
-              width={800}
-              priority
+              height={300}
+              width={300}
               className="object-cover w-full h-full shadow-md "
             />
             <div className="absolute top-1/2 w-full text-center text-white text-[45px] font-sunn">
